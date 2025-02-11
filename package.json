@@ -5,7 +5,8 @@
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
-    "lint": "turbo lint"
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "author": "Avaneesh Chopdekar",
   "license": "MIT",
@@ -14,6 +15,8 @@
     "node": ">=18"
   },
   "devDependencies": {
-    "turbo": "^2.4.1"
+    "prettier": "^3.5.0",
+    "turbo": "^2.4.1",
+    "typescript": "^5.7.3"
   }
 }
