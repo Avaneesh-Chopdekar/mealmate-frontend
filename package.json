@@ -2,11 +2,18 @@
   "name": "frontend",
   "version": "1.0.0",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint"
+  },
   "author": "Avaneesh Chopdekar",
   "license": "MIT",
   "packageManager": "pnpm@10.2.1",
   "engines": {
     "node": ">=18"
+  },
+  "devDependencies": {
+    "turbo": "^2.4.1"
   }
 }
