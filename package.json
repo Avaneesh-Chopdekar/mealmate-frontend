@@ -10,7 +10,11 @@
   },
   "author": "Avaneesh Chopdekar",
   "license": "MIT",
-  "packageManager": "pnpm@10.2.1",
+  "packageManager": "yarn@1.22.22",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "engines": {
     "node": ">=18"
   },
